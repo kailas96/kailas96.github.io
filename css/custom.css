@@ -23,7 +23,6 @@ html {
 body {
     font-family: 'Raleway', serif;
     color: #424242;
-    font-family: 'Raleway';
     font-size: 17px;
     font-style: thin;
     font-variant: thin;
@@ -32,7 +31,7 @@ body {
     padding-top: 60px;
 }
 h1 {
-    margin: 0px 0px 5px;
+    margin: 0 0 5px;
     font-family: 'Acme', sans-serif;
     font-weight: 500;
     font-size: 40px;
@@ -82,18 +81,15 @@ a:focus {
     font-weight: 400;
 }
 img.img-responsive {
-    margin-bottom: 20px;
-    margin-top: 10px;
     display: block;
-    margin-left: auto;
-    margin-right: auto
+    margin: 10px auto 20px;
 }
 img.img-responsive:hover {} p {
     padding-bottom: 20px;
-    margin: 0px;
+    margin: 0;
 }
 .container-fluid {
-    padding-left: 0px;
+    padding-left: 0;
     padding-right: 15px;
 }
 
@@ -106,9 +102,8 @@ Diya Start
     width: 200px;
     height: 210px;
     padding-top: 16px;
-    margin: 0 auto;
     overflow: visible;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
 }
 .home-diya .rangoli {
     position: absolute;
@@ -252,9 +247,9 @@ h2:after {
     margin-bottom: 10px;
 }
 .box-shad {
-    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -webkit-box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+    box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
 }
 .whiteGreyColor {
     background-color: #F6F6F6
@@ -262,12 +257,11 @@ h2:after {
 
 .headingLeft {
     margin: 0 0 5px;
-    font-family: 'Acme';
+    font-family: 'Acme', serif;
     font-weight: 500;
     font-style: normal;
     text-align: left;
     font-size: 32px;
-    font-weight: 500;
     color: #97260C;
     padding-bottom: 10px;
 }
@@ -278,7 +272,6 @@ h2:after {
     font-style: normal;
     text-align: center;
     font-size: 32px;
-    font-weight: 500;
     color: #97260C;
     padding-bottom: 10px;
 }
@@ -290,7 +283,6 @@ h2:after {
     font-style: normal;
     text-align: center;
     font-size: 25px;
-    font-weight: 500;
     color: white;
 }
 .subheadingCenterwhite {
@@ -304,7 +296,6 @@ h2:after {
     font-style: normal;
     text-align: left;
     font-size: 25px;
-    font-weight: 500;
     color: #97260C;
     padding-bottom: 10px;
 }
@@ -346,20 +337,14 @@ h2:after {
     border-bottom: 1px solid #CC0000;
     border-top: 1px solid #CC0000;
     width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px auto;
 }
 .singleUnderLine:after {
     content: ' ';
     display: block;
     border-bottom: 1px solid #CC0000;
     width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px auto;
 }
 .headingUnderLine:after {
     content: ' ';
@@ -388,7 +373,7 @@ h2:after {
     font-size: 28px;
     line-height: 32px;
     color: #2c3e50;
-    margin: 0px;
+    margin: 0;
     padding-top: 12px;
     padding-bottom: 12px;
 }
@@ -529,7 +514,8 @@ header.parallax:after {
     }
 }
 header.home {
-    background-image: url(../Resource/Header/landing.jpg);
+    background-image: url(../Resource/Home/naga.jpg);
+    background-size:100% auto;
 }
 header.seva {
     background-image: url(../Resource/Header/seva.jpg);
@@ -592,10 +578,10 @@ footer {
     padding-top: 150px;
     /*background-color: blue;*/
     
-    margin: 0px;
+    margin: 0;
 }
 .footerData > p {
-    margin: 0px;
+    margin: 0;
 }
 @media only screen and (max-width: 480px) {
     footer {
@@ -609,7 +595,7 @@ footer {
 @media(max-width:767px) {
     .footerData {
         padding-top: 130px;
-        margin: 0px;
+        margin: 0;
     }
 }
 /* ********************************
@@ -700,7 +686,7 @@ Navigation Bar Starts
     color: #FFA500;
 }
 .navbar-collapse {
-    padding-right: 0px !important;
+    padding-right: 0 !important;
 }
 .navbar-toggle:focus,
 .navbar-toggle:active {
@@ -710,8 +696,8 @@ Navigation Bar Starts
     min-height: 65px;
 }
 .navbar-nav > li > a {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
     line-height: 65px;
 }
 /* Large Devices, Wide Screens */
@@ -749,7 +735,7 @@ Navigation Bar Starts
         z-index: 999;
     }
     .navbar {
-        padding: 0px;
+        padding: 0;
         overflow: hidden;
     }
 }
@@ -770,7 +756,7 @@ Navigation Bar Starts
         font-weight: 700;
         overflow: hidden;
         margin-left: 5px;
-        min-width: 0px !important;
+        min-width: 0 !important;
     }
     .brand {
         position: absolute;
@@ -806,9 +792,8 @@ Landing Events Starts
     border-radius: 50%;
     display: table;
     height: 100px;
-    margin: 0 auto;
     width: 100px;
-    margin-top: -61px;
+    margin: -61px auto 0;
 }
 .dateCircleTitle {
     float: left;
@@ -1050,12 +1035,12 @@ Events TimeLine
         display: none;
     }
     .timeline>li:not(.timeline-inverted) {
-        padding-right: 0px;
+        padding-right: 0;
         margin-top: 20px !important;
         margin-bottom: 10px!important;
     }
     .timeline>li.timeline-inverted {
-        padding-left: 0px;
+        padding-left: 0;
         margin-top: 20px !important;
         margin-bottom: 10px !important;
     }
@@ -1165,10 +1150,7 @@ th {
     .zoomimage {
         height: 150px;
         width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin: 25px 20%;
     }
     .hideMobile {
         display: none;
@@ -1179,7 +1161,7 @@ th {
         padding-top: 130px;
         /*background-color: blue;*/
         
-        margin: 0px;
+        margin: 0;
     }
 }
 @media(min-width:768px) {} @media(min-width:992px) {} @media(min-width:1200px) {}
@@ -1211,9 +1193,8 @@ background-color: blue;*/
 .chackbackground {
     display: block;
     position: relative;
-    background: url(../Resource/History/chak.jpg);
     background-size: cover;
-    background-position: center;
+    background: url(../Resource/History/chak.jpg) center;
 }
 .buttonwithPadding {
     padding: 14px 24px;
@@ -1267,7 +1248,7 @@ Near By Place
     -webkit-box-shadow: 0 0 30px 5px #999;
 }
 .maproot {
-    margin: 0px !important;
+    margin: 0 !important;
 }
 .btn:focus {
     outline: none !important;
@@ -1330,7 +1311,7 @@ background: #6a5750;
 .lib-panel .lib-row.lib-header {
     background-color: #FFFFFF;
     font-size: 20px;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0 0 0;
 }
 .lib-panel .lib-row.lib-header .lib-header-seperator {
     height: 2px;
@@ -1450,7 +1431,7 @@ background: #6a5750;
 .stickyBar .menuItems a:after {
     content: "";
     position: absolute;
-    width: 0%;
+    width: 0;
     height: 2px;
     bottom: 0;
     left: 0;
@@ -1517,7 +1498,7 @@ Administration Start
 /******************************** */
 
 .thumbnail .caption p {
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 .caption {
     text-align: center;
