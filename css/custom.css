@@ -518,43 +518,43 @@ header.home {
     background-size:100% auto;
 }
 header.seva {
-    background-image: url(../Resource/Header/seva.jpg);
+    background-image: url(../Resource/Gallery/img2.gif);
 }
 header.deities {
-    background-image: url(../Resource/Header/deities.jpg);
+    background-image: url(../Resource/Gallery/img2.gif);
 }
 header.festival {
-    background-image: url(../Resource/Header/festivals.jpg);
+    background-image: url(../Resource/Gallery/img2.gif);
 }
 header.admin {
-    background-image: url(../Resource/Header/admin.jpg);
+    background-image: url(../Resource/Gallery/img2.gif);
 }
 header.incarnation {
-    background-image: url(../Resource/Header/incarnation.jpeg);
+    background-image: url(../Resource/Gallery/img2.gif);
 }
 header.establishment {
-    background-image: url(../Resource/Header/aboutus.jpg);
+    background-image: url(../Resource/Gallery/img2.gif);
 }
 header.community {
-    background-image: url(../Resource/Header/crowd.jpg);
+    background-image: url(../Resource/Gallery/img2.gif);
 }
 header.events {
-    background-image: url(../Resource/Header/events.jpg);
+    background-image: url(../Resource/Gallery/img2.gif);
 }
 header.gallery {
-    background-image: url(../Resource/Header/gallery.jpg);
+    background-image: url(../Resource/Gallery/img2.gif);
 }
 header.contact {
-    background-image: url(../Resource/Header/contact.jpg);
+    background-image: url(../Resource/Gallery/img2.gif);
 }
 header.near {
-    background-image: url(../Resource/Header/nearby.jpg);
+    background-image: url(../Resource/Gallery/img2.gif);
 }
 header.marriage {
-    background-image: url(../Resource/Header/marriage.jpg);
+    background-image: url(../Resource/Gallery/img2.gif);
 }
 header.donate {
-    background-image: url(../Resource/Header/donate.jpg);
+    background-image: url(../Resource/Gallery/img2.gif);
 }
 /* ********************************
 Header Image Close
@@ -933,10 +933,9 @@ Events TimeLine
     top: 26px;
     right: -15px;
     display: inline-block;
-    border-top: 15px solid transparent;
-    border-left: 15px solid #ccc;
-    border-right: 0 solid #ccc;
-    border-bottom: 15px solid transparent;
+    border: 15px solid transparent;
+    border-right: 0 #ccc;
+    border-left-color: #ccc;
     content: " ";
 }
 .timeline > li > .timeline-panel:after {
@@ -944,10 +943,9 @@ Events TimeLine
     top: 27px;
     right: -14px;
     display: inline-block;
-    border-top: 14px solid transparent;
-    border-left: 14px solid #fff;
-    border-right: 0 solid #fff;
-    border-bottom: 14px solid transparent;
+    border: 14px solid transparent;
+    border-right: 0 #fff;
+    border-left-color: #fff;
     content: " ";
 }
 .timeline > li > .timeline-badge {
@@ -963,10 +961,7 @@ Events TimeLine
     margin-left: -25px;
     background-color: #999999;
     z-index: 100;
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
+    border-radius: 50%;
 }
 .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
@@ -1016,8 +1011,6 @@ Events TimeLine
         display: none;
     }
     ul.timeline > li > .timeline-panel {
-        width: 90%;
-        width: 90%;
         width: 90%;
     }
     ul.timeline > li > .timeline-badge {
