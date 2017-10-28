@@ -1876,3 +1876,4 @@ audio::-webkit-media-controls-panel {
     visibility: hidden;
     display: none;
 }
+.thumbnail {margin-bottom:6px;}
