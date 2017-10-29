@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,10 +23,11 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 </head>
+
 <body>
 <!-- ********************************
-   Navigation
-   ******************************** -->
+Navigation
+******************************** -->
 <nav class="navbar navbar-custom navbar-fixed-top navigation" id="nav" role="navigation">
 
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -34,20 +36,25 @@
             <i class="fa fa-bars"></i>
         </button>
         <a class="navbar-brand" style="color:orange" href="index.html">
-            <div class="brand"><img class="brand_logo" alt="" src="Resource/Common/sitelogo.png"/>Sree Nagaraja Temple
+            <div class="brand">
+                <img class="brand_logo" alt="" src="Resource/Common/sitelogo.png"/>Sree Nagaraja Temple
             </div>
         </a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="menu">
         <ul class="nav navbar-nav navbar-center">
-            <li><a href="index.html">Home</a>
+            <li>
+                <a href="index.html">Home</a>
             </li>
-            <li><a href="aboutfestival.html">About</a>
+            <li>
+                <a href="aboutfestival.html">About</a>
             </li>
-            <li class="active"><a href="gallery.html">Gallery</a>
+            <li class="active">
+                <a href="gallery.html">Gallery</a>
             </li>
-            <li><a href="contactus.html">Contact</a>
+            <li>
+                <a href="contactus.html">Contact</a>
             </li>
         </ul>
     </div>
@@ -57,74 +64,96 @@
 
 
 <!-- ********************************
-           Top Header
-        ******************************** -->
+       Top Header
+    ******************************** -->
 <header class="parallax gallery">
 </header>
 
 
-<!-- 
-          <section class="stickyBar" id="stickyBar">
-         <div class="container">
-            <div class="row">
-               <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
-                  <div class="row text-center menuItems">
-                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
-                        <div class="row"><a href="#" class="active">Videos</a></div>
-                     </div>
-                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
-                        <div class="row"><a href="http://pernekshetra.com/photo_gallery">Photos</a></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section> -->
+<!--
+      <section class="stickyBar" id="stickyBar">
+     <div class="container">
+        <div class="row">
+           <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+              <div class="row text-center menuItems">
+                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
+                    <div class="row"><a href="#" class="active">Videos</a></div>
+                 </div>
+                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
+                    <div class="row"><a href="http://pernekshetra.com/photo_gallery">Photos</a></div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+  </section> -->
 
-
-<!-- ********************************
-   Video listing
-   ******************************** -->
+<!--   Add your images here-->
 
 <div class="container paddingT30">
-    <ul class="list-unstyled video-list-thumbs row">
-
-        <li class="col-sm-4">
-            <img class="img-responsive" style="width: 100%; height: 300px; position: relative;padding:0px;margin:0px;"
-                 src="Resource/Gallery/img1.jpg"/>
-            <h2>Chuttuvilaku 2016</h2>
-        </li>
-
-
-        <!--    <li class="col-sm-4">
-                <a href="gallery.html#" title="Claudio Bravo, antes su debut con el Barça en la Liga">
-                   <iframe style="width: 100%; height: 300px; position: relative;padding:0px;margin:0px;" src="https://www.youtube.com/embed/cjVZE91PWog" frameborder="0" allowfullscreen></iframe>
-                    <h2>Chakku - Traditional Oil Press | Agrarian Culture, Kerala</h2>
-                </a>
-            </li>-->
-
-    </ul>
+    <div class="col-lg-3 col-sm-4 col-xs-6">
+        <a title="Chuttuvilaku 2016" href="#">
+            <img class="thumbnail img-responsive" alt="Chuttuvilaku 2016" src="Resource/Gallery/img1.jpg">
+        </a>
+    </div>
+    <div class="col-lg-3 col-sm-4 col-xs-6">
+        <a title="Pooja" href="#">
+            <img class="thumbnail img-responsive" src="Resource/Gallery/img4.jpg">
+        </a>
+    </div>
 
 </div>
 
+<div tabindex="-1" class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <h3 class="modal-title">Heading</h3>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- ********************************
-         Footer
-         ******************************** -->
+     Footer
+     ******************************** -->
 <footer>
     <div class="footerData">
         <p>
             ©2017 Kumaranalloor Sree Nagaraja Temple. All rights reserved.
-            <br> Developed by <a href="mailto:vishnukailas96@mail.com" target="_blank">Vishnu Kailas</a>
+            <br> Developed by
+            <a href="mailto:vishnukailas96@mail.com" target="_blank">Vishnu Kailas</a>
         </p>
     </div>
 </footer>
 <!-- ********************************
-         Scripts
-         /******************************** -->
+     Scripts
+     /******************************** -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/pace.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.thumbnail').click(function () {
+            $('.modal-body').empty();
+            var title = $(this).parent('a').attr("title");
+            $('.modal-title').html(title);
+            $($(this).parents('div').html()).appendTo('.modal-body');
+            $('#myModal').modal({
+                show: true
+            });
+        });
+    });
+</script>
 </body>
+
 </html>

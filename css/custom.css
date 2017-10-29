@@ -1,17 +1,22 @@
 /* *******************************
 Custom CSS for website
 ******************************** */
+
+
 /*For Body and Paragrapgh: Raleway
 Headlines - Acme
 */
 
 @import url(http://fonts.googleapis.com/css?family=Acme|Raleway);
+
 /*For Sholka*/
 
 @font-face {
     font-family: SAMARN__;
     src: url(../Fonts/SAMARN__.ttf);
 }
+
+
 /* ********************************
 Global
 /******************************** */
@@ -20,6 +25,7 @@ html {
     width: 100%;
     height: 100%;
 }
+
 body {
     font-family: 'Raleway', serif;
     color: #424242;
@@ -30,6 +36,7 @@ body {
     line-height: 30.6px;
     padding-top: 60px;
 }
+
 h1 {
     margin: 0 0 5px;
     font-family: 'Acme', sans-serif;
@@ -39,59 +46,72 @@ h1 {
     text-align: center;
     text-transform: capitalize;
 }
+
 h2,
 h3,
 h4,
 h5,
 h6 {
     margin: 0 0 5px;
-    font-family: 'Acme',sans-serif;
+    font-family: 'Acme', sans-serif;
     font-weight: 500;
     font-style: normal;
     color: #444;
 }
+
 h2 {
     font-size: 32px;
     font-weight: 500;
     color: #97260C;
 }
+
 h3 {
     font-size: 22px;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 10px;
 }
+
 blockquote {
     font-family: 'Acme', arial, sans-serif;
     color: rgba(100, 4, 2, 1);
     font-size: 20px;
 }
+
 a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     color: orange;
 }
+
 a:hover,
 a:focus {
     text-decoration: underline;
     color: orange;
 }
+
 .light {
     font-weight: 400;
 }
+
 img.img-responsive {
     display: block;
     margin: 10px auto 20px;
 }
-img.img-responsive:hover {} p {
+
+img.img-responsive:hover {}
+
+p {
     padding-bottom: 20px;
     margin: 0;
 }
+
 .container-fluid {
     padding-left: 0;
     padding-right: 15px;
 }
+
 
 /* ********************************
 Diya Start
@@ -105,6 +125,7 @@ Diya Start
     overflow: visible;
     margin: 0 auto 30px;
 }
+
 .home-diya .rangoli {
     position: absolute;
     width: 200px;
@@ -112,6 +133,7 @@ Diya Start
     background: transparent url("../Resource/Common/rangoli2.png") no-repeat center center;
     z-index: 2 left: 40px;
 }
+
 .home-diya .diya {
     position: absolute;
     bottom: 37px;
@@ -120,6 +142,7 @@ Diya Start
     background: transparent url("../Resource/Common/diya1.png") no-repeat center bottom;
     z-index: 10
 }
+
 .home-diya .rangoli {
     -webkit-animation: rangoli 37s 0.6s linear infinite;
     -moz-animation: rangoli 37s 0.6s linear infinite;
@@ -127,6 +150,7 @@ Diya Start
     -ms-animation: rangoli 37s 0.6s linear infinite;
     animation: rangoli 37s 0.6s linear infinite
 }
+
 .diya .fire {
     position: absolute;
     width: 16px;
@@ -145,6 +169,7 @@ Diya Start
     -ms-transition: transform 0.3s 0.4s cubic-bezier(0.43, 0.65, 0.68, 1.36);
     transition: transform 0.3s 0.4s cubic-bezier(0.43, 0.65, 0.68, 1.36)
 }
+
 .start .diya .fire1 {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -152,6 +177,7 @@ Diya Start
     -ms-transform: scale(0);
     transform: scale(0);
 }
+
 .start .diya .fire2 {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -159,6 +185,7 @@ Diya Start
     -ms-transform: scale(0);
     transform: scale(0);
 }
+
 .start .diya .fire3 {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -166,6 +193,7 @@ Diya Start
     -ms-transform: scale(0);
     transform: scale(0);
 }
+
 .diya .fire1 {
     -webkit-transform: scale(0.7);
     -moz-transform: scale(0.7);
@@ -174,6 +202,7 @@ Diya Start
     transform: scale(0.7);
     left: 26px;
 }
+
 .diya .fire2 {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -182,6 +211,7 @@ Diya Start
     transform: scale(1);
     left: 84px;
 }
+
 .diya .fire3 {
     -webkit-transform: scale(0.7);
     -moz-transform: scale(0.7);
@@ -190,6 +220,7 @@ Diya Start
     transform: scale(0.7);
     left: 142px;
 }
+
 @-webkit-keyframes rangoli {
     0% {
         -webkit-transform: rotateZ(0deg)
@@ -198,6 +229,7 @@ Diya Start
         -webkit-transform: rotateZ(360deg)
     }
 }
+
 @-moz-keyframes rangoli {
     0% {
         -moz-transform: rotateZ(0deg)
@@ -206,6 +238,7 @@ Diya Start
         -moz-transform: rotateZ(360deg)
     }
 }
+
 @-o-keyframes rangoli {
     0% {
         -o-transform: rotateZ(0deg)
@@ -214,6 +247,7 @@ Diya Start
         -o-transform: rotateZ(360deg)
     }
 }
+
 @-ms-keyframes rangoli {
     0% {
         -ms-transform: rotateZ(0deg)
@@ -222,6 +256,7 @@ Diya Start
         -ms-transform: rotateZ(360deg)
     }
 }
+
 @keyframes rangoli {
     0% {
         transform: rotateZ(0deg)
@@ -230,9 +265,13 @@ Diya Start
         transform: rotateZ(360deg)
     }
 }
+
+
 /* ********************************
 Diya End
 /******************************** */
+
+
 /* ********************************
 Common Starts
 /******************************** */
@@ -246,11 +285,13 @@ h2:after {
     margin-top: 5px;
     margin-bottom: 10px;
 }
+
 .box-shad {
     -webkit-box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
     box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
 }
+
 .whiteGreyColor {
     background-color: #F6F6F6
 }
@@ -265,6 +306,7 @@ h2:after {
     color: #97260C;
     padding-bottom: 10px;
 }
+
 .headingCenter {
     margin: 0 0 5px;
     font-family: 'Acme', sans-serif;
@@ -285,10 +327,12 @@ h2:after {
     font-size: 25px;
     color: white;
 }
+
 .subheadingCenterwhite {
     color: white;
     text-align: center;
 }
+
 .subheadingLeft {
     margin: 0 0 5px;
     font-family: 'Acme', sans-serif;
@@ -299,37 +343,47 @@ h2:after {
     color: #97260C;
     padding-bottom: 10px;
 }
+
 .marginT30 {
     margin-top: 30px;
 }
+
 .marginT20 {
     margin-top: 20px;
 }
+
 .marginB30 {
     margin-bottom: 30px;
 }
+
 .paddingT30 {
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
 .paddingT40 {
     padding-top: 40px;
     padding-bottom: 20px;
 }
+
 .paddingT10 {
     padding-top: 10px;
 }
+
 .marginT50 {
     margin-top: 50px;
 }
+
 .marginTB30 {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 #content {
     padding-top: 30px;
     position: relative;
 }
+
 .doubleUnderline:after {
     content: ' ';
     display: block;
@@ -339,6 +393,7 @@ h2:after {
     width: 60%;
     margin: 30px auto;
 }
+
 .singleUnderLine:after {
     content: ' ';
     display: block;
@@ -346,6 +401,7 @@ h2:after {
     width: 60%;
     margin: 30px auto;
 }
+
 .headingUnderLine:after {
     content: ' ';
     display: block;
@@ -355,17 +411,19 @@ h2:after {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.headingUnderLine
-{
- font-family: 'Acme', sans-serif;
- font-size: 24px;
+
+.headingUnderLine {
+    font-family: 'Acme', sans-serif;
+    font-size: 24px;
 }
+
 .imageDoubleBorder {
     padding: 1px;
     border: 1px solid #021a40;
     /*background-color:#ff0;*/
 }
-.author > p {
+
+.author>p {
     color: rgb(237, 76, 73) !important;
     font-family: 'Tangerine', sans-serif;
     font-weight: 400;
@@ -377,12 +435,17 @@ h2:after {
     padding-top: 12px;
     padding-bottom: 12px;
 }
+
 .author {
     margin-right: 15px;
 }
+
+
 /* ********************************
 Common Ends
 /******************************** */
+
+
 /* ********************************
 Landing Starts
 /******************************** */
@@ -397,9 +460,13 @@ Landing Starts
     padding-top: 14px;
     text-transform: lowercase;
 }
+
+
 /* ********************************
 Landing Ends
 /******************************** */
+
+
 /* ********************************
 Block Label Starts
 /******************************** */
@@ -416,6 +483,7 @@ Block Label Starts
     color: #424242;
     padding-top: 10px;
 }
+
 .blockLabel:after {
     border-bottom: thin solid #303c40;
     width: 80px;
@@ -425,9 +493,13 @@ Block Label Starts
     margin: 17px 0 0;
     opacity: .3;
 }
+
+
 /* ********************************
 Block Label Ends
 /******************************** */
+
+
 /* ********************************
 Header Image Start
 /******************************** */
@@ -436,6 +508,7 @@ Header Image Start
     background-color: #e34330;
     padding: 20px;
 }
+
 header.parallax {
     position: relative;
     height: 70vh;
@@ -446,33 +519,25 @@ header.parallax {
     background-attachment: scroll;
     background-attachment: fixed;
 }
+
 header.parallax:before {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e02311+0,db4332+47,db665c+100 */
-    
     background: #e02311;
     /* Old browsers */
-    
     background: -moz-radial-gradient(center, ellipse cover, #e02311 0%, #db4332 47%, #db665c 100%);
     /* FF3.6+ */
-    
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #e02311), color-stop(47%, #db4332), color-stop(100%, #db665c));
     /* Chrome,Safari4+ */
-    
     background: -webkit-radial-gradient(center, ellipse cover, #e02311 0%, #db4332 47%, #db665c 100%);
     /* Chrome10+,Safari5.1+ */
-    
     background: -o-radial-gradient(center, ellipse cover, #e02311 0%, #db4332 47%, #db665c 100%);
     /* Opera 12+ */
-    
     background: -ms-radial-gradient(center, ellipse cover, #e02311 0%, #db4332 47%, #db665c 100%);
     /* IE10+ */
-    
     background: radial-gradient(ellipse at center, #e02311 0%, #db4332 47%, #db665c 100%);
     /* W3C */
-    
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e02311', endColorstr='#db665c', GradientType=1);
     /* IE6-9 fallback on horizontal gradient */
-    
     z-index: -1;
     display: block;
     position: absolute;
@@ -484,8 +549,9 @@ header.parallax:before {
     right: 0;
     content: "";
 }
+
 header.parallax:after {
-    content: "Perne Kshetra";
+    content: "Sree Nagaraja temple";
     font-size: 45px;
     color: transparent;
     display: block;
@@ -500,6 +566,7 @@ header.parallax:after {
     animation-name: example;
     animation-duration: 2s;
 }
+
 @keyframes example {
     from {
         color: white;
@@ -508,57 +575,76 @@ header.parallax:after {
         color: #e34330;
     }
 }
+
 @media (max-width: 767px) {
     header.parallax {
         background-attachment: scroll;
     }
 }
+
 header.home {
     background-image: url(../Resource/Home/naga.jpg);
-    background-size:100% auto;
+    background-size: 100% auto;
 }
+
 header.seva {
     background-image: url(../Resource/Gallery/img2.gif);
 }
+
 header.deities {
     background-image: url(../Resource/Gallery/img2.gif);
 }
+
 header.festival {
     background-image: url(../Resource/Gallery/img2.gif);
 }
+
 header.admin {
     background-image: url(../Resource/Gallery/img2.gif);
 }
+
 header.incarnation {
     background-image: url(../Resource/Gallery/img2.gif);
 }
+
 header.establishment {
     background-image: url(../Resource/Gallery/img2.gif);
 }
+
 header.community {
     background-image: url(../Resource/Gallery/img2.gif);
 }
+
 header.events {
     background-image: url(../Resource/Gallery/img2.gif);
 }
+
 header.gallery {
     background-image: url(../Resource/Gallery/img2.gif);
 }
+
 header.contact {
     background-image: url(../Resource/Gallery/img2.gif);
 }
+
 header.near {
     background-image: url(../Resource/Gallery/img2.gif);
 }
+
 header.marriage {
     background-image: url(../Resource/Gallery/img2.gif);
 }
+
 header.donate {
     background-image: url(../Resource/Gallery/img2.gif);
 }
+
+
 /* ********************************
 Header Image Close
 /******************************** */
+
+
 /* ********************************
 Footer Start
 /******************************** */
@@ -574,15 +660,17 @@ footer {
     background-size: cover;
     height: 210px;
 }
+
 .footerData {
     padding-top: 150px;
     /*background-color: blue;*/
-    
     margin: 0;
 }
-.footerData > p {
+
+.footerData>p {
     margin: 0;
 }
+
 @media only screen and (max-width: 480px) {
     footer {
         text-align: center;
@@ -592,15 +680,20 @@ footer {
         height: 210px;
     }
 }
+
 @media(max-width:767px) {
     .footerData {
         padding-top: 130px;
         margin: 0;
     }
 }
+
+
 /* ********************************
 Footer End
 /******************************** */
+
+
 /* ********************************
 Navigation Bar Starts
 /******************************** */
@@ -616,9 +709,11 @@ Navigation Bar Starts
     overflow: hidden;
     background-color: #CC0000;
 }
+
 .navbar-header .fa {
     color: #fff;
 }
+
 .navbar-brand {
     font-size: 18px;
     letter-spacing: 1px;
@@ -630,33 +725,40 @@ Navigation Bar Starts
     margin-left: 10%;
     min-width: 250px !important;
 }
+
 .brand {
     position: absolute;
     top: 4px;
     left: 30px;
     z-index: 999;
 }
+
 .brand_logo {
     padding-right: 10px;
 }
+
 .navbar-brand:focus {
     outline: 0;
     background-color: transparent;
     color: #FFA500;
 }
+
 .navbar-brand:hover {
     color: #FFA500;
 }
+
 .navbar-custom ul.nav {
     text-align: center;
     float: none;
     margin: 0 auto;
 }
+
 .navbar-custom ul.nav li {
     float: none;
     display: inline-block;
     text-align: center;
 }
+
 .navbar-custom ul.nav li a {
     font-size: 14px;
     letter-spacing: 1px;
@@ -665,54 +767,70 @@ Navigation Bar Starts
     text-transform: uppercase;
     font-weight: 600;
 }
+
 .active .navbar-custom .nav li a {
     -webkit-transition: background .2s ease-in-out;
     -moz-transition: background .2s ease-in-out;
     transition: background .2s ease-in-out;
 }
+
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
     outline: 0;
     color: #FFA500;
     background-color: transparent;
 }
+
 .navbar-custom .nav li.active a {
     outline: 0;
     color: #FFA500;
 }
+
 .navbar-toggle {
     padding-top: 10px;
     font-size: 33px;
     color: #FFA500;
 }
+
 .navbar-collapse {
     padding-right: 0 !important;
 }
+
 .navbar-toggle:focus,
 .navbar-toggle:active {
     outline: 0;
 }
+
 .navbar-fixed-top {
     min-height: 65px;
 }
-.navbar-nav > li > a {
+
+.navbar-nav>li>a {
     padding-top: 0;
     padding-bottom: 0;
     line-height: 65px;
 }
+
+
 /* Large Devices, Wide Screens */
 
 @media only screen and (max-width: 1200px) {}
+
+
 /* Medium Devices, Desktops */
 
 @media only screen and (max-width: 992px) {}
+
+
 /* Small Devices, Tablets */
 
 @media only screen and (max-width: 768px) {}
+
+
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-width: 480px) {
-    .navbar-nav > li > a {
+    .navbar-nav>li>a {
         line-height: 20px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -721,8 +839,7 @@ Navigation Bar Starts
         font-size: 16px;
         letter-spacing: 1px;
         color: white;
-        font-family: 'Acme',
-        sans-serif;
+        font-family: 'Acme', sans-serif;
         text-transform: uppercase;
         font-weight: 700;
         overflow: hidden;
@@ -739,10 +856,12 @@ Navigation Bar Starts
         overflow: hidden;
     }
 }
+
+
 /* Custom, iPhone Retina */
 
 @media only screen and (max-width: 320px) {
-    .navbar-nav > li > a {
+    .navbar-nav>li>a {
         line-height: 20px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -765,9 +884,13 @@ Navigation Bar Starts
         z-index: 999;
     }
 }
+
+
 /* ********************************
 Navigation Bar Ends
 /******************************** */
+
+
 /* ********************************
 Landing Events Starts
 /******************************** */
@@ -777,6 +900,7 @@ Landing Events Starts
     padding-bottom: 40px;
     background-color: #F6F6F6;
 }
+
 .landingEventBox {
     border-radius: 3px;
     padding: 10px 10px;
@@ -786,6 +910,7 @@ Landing Events Starts
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.16);
 }
+
 .dateCircle {
     background-color: #97260C;
     ;
@@ -795,6 +920,7 @@ Landing Events Starts
     width: 100px;
     margin: -61px auto 0;
 }
+
 .dateCircleTitle {
     float: left;
     width: 100%;
@@ -807,61 +933,80 @@ Landing Events Starts
     font-weight: 700;
     color: white;
 }
+
 .eventInfo {
     padding-top: 10px;
 }
+
 .eventInfo h4 {
     padding-top: 5px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
 .eventInfo h3 {
     padding-top: 5px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-.eventInfo > p {
+
+.eventInfo>p {
     color: #424242;
     font-size: 16px;
     padding: 5px;
     text-align: justify;
 }
-.eventInfo > a {
+
+.eventInfo>a {
     background-color: #03a9f4;
     border-radius: 2px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     color: #fff;
     transition: all 0.5s ease 0s;
 }
-.eventInfo > a:hover {
+
+.eventInfo>a:hover {
     background-color: #0288d1;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
     color: #fff;
     transition: all 0.5s ease 0s;
 }
+
+
 /* ********************************
 Landing Events Ends
 /******************************** */
+
+
 /* *****************************
 List beigns
  ***************************** */
 
-#list2 {} #list2 ol {
+#list2 {}
+
+#list2 ol {
     font-style: italic;
     font-weight: thin;
     font-family: "Acme", Times, serif;
     font-size: 24px;
 }
-#list2 ol li {} #list2 ol li p {
+
+#list2 ol li {}
+
+#list2 ol li p {
     padding: 8px;
     font-style: normal;
     font-family: "Acme", serif;
     font-size: 20px;
     border-left: 1px solid #999;
 }
+
+
 /* *****************************
 List Ends
  ***************************** */
+
+
 /* ********************************
 Contact Us Start
 /******************************** */
@@ -870,14 +1015,19 @@ Contact Us Start
     font-size: 35px;
     color: #CC0000;
 }
+
 .form-control {
     border-radius: 0;
     min-height: 50px;
     height: 50px;
 }
+
+
 /* ********************************
 Contact Us End
 /******************************** */
+
+
 /* ********************************
 Events TimeLine
 /******************************** */
@@ -888,6 +1038,7 @@ Events TimeLine
     position: relative;
     margin-right: 5px;
 }
+
 .timeline:before {
     top: 0;
     bottom: 0;
@@ -898,27 +1049,33 @@ Events TimeLine
     left: 50%;
     margin-left: -1.5px;
 }
-.timeline > li {
+
+.timeline>li {
     margin-bottom: 20px;
     position: relative;
 }
-.timeline > li:before,
-.timeline > li:after {
+
+.timeline>li:before,
+.timeline>li:after {
     content: " ";
     display: table;
 }
-.timeline > li:after {
+
+.timeline>li:after {
     clear: both;
 }
-.timeline > li:before,
-.timeline > li:after {
+
+.timeline>li:before,
+.timeline>li:after {
     content: " ";
     display: table;
 }
-.timeline > li:after {
+
+.timeline>li:after {
     clear: both;
 }
-.timeline > li > .timeline-panel {
+
+.timeline>li>.timeline-panel {
     width: 46%;
     float: left;
     border: 1px solid #d4d4d4;
@@ -928,7 +1085,8 @@ Events TimeLine
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
-.timeline > li > .timeline-panel:before {
+
+.timeline>li>.timeline-panel:before {
     position: absolute;
     top: 26px;
     right: -15px;
@@ -938,7 +1096,8 @@ Events TimeLine
     border-left-color: #ccc;
     content: " ";
 }
-.timeline > li > .timeline-panel:after {
+
+.timeline>li>.timeline-panel:after {
     position: absolute;
     top: 27px;
     right: -14px;
@@ -948,7 +1107,8 @@ Events TimeLine
     border-left-color: #fff;
     content: " ";
 }
-.timeline > li > .timeline-badge {
+
+.timeline>li>.timeline-badge {
     color: #fff;
     width: 50px;
     height: 50px;
@@ -963,68 +1123,79 @@ Events TimeLine
     z-index: 100;
     border-radius: 50%;
 }
-.timeline > li.timeline-inverted > .timeline-panel {
+
+.timeline>li.timeline-inverted>.timeline-panel {
     float: right;
 }
-.timeline > li.timeline-inverted > .timeline-panel:before {
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
     border-left-width: 0;
     border-right-width: 15px;
     left: -15px;
     right: auto;
 }
-.timeline > li.timeline-inverted > .timeline-panel:after {
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
     border-left-width: 0;
     border-right-width: 14px;
     left: -14px;
     right: auto;
 }
+
 .timeline-badge.primary {
     background-color: #2e6da4 !important;
 }
+
 .timeline-badge.success {
     background-color: #3f903f !important;
 }
+
 .timeline-badge.warning {
     background-color: #f0ad4e !important;
 }
+
 .timeline-badge.danger {
     background-color: #d9534f !important;
 }
+
 .timeline-badge.info {
     background-color: #5bc0de !important;
 }
+
 .timeline-title {
     margin-top: 0;
     color: inherit;
 }
-.timeline-body > p,
-.timeline-body > ul {
+
+.timeline-body>p,
+.timeline-body>ul {
     margin-bottom: 0;
 }
-.timeline-body > p + p {
+
+.timeline-body>p+p {
     margin-top: 5px;
 }
+
 @media (max-width: 767px) {
     ul.timeline:before {
         /*left: 30px;*/
-        
         display: none;
     }
-    ul.timeline > li > .timeline-panel {
+    ul.timeline>li>.timeline-panel {
         width: 90%;
     }
-    ul.timeline > li > .timeline-badge {
+    ul.timeline>li>.timeline-badge {
         display: none;
     }
-    ul.timeline > li > .timeline-panel {
+    ul.timeline>li>.timeline-panel {
         float: right;
         margin-right: 10px;
         margin-left: 10px;
     }
-    ul.timeline > li > .timeline-panel:before {
+    ul.timeline>li>.timeline-panel:before {
         display: none;
     }
-    ul.timeline > li > .timeline-panel:after {
+    ul.timeline>li>.timeline-panel:after {
         display: none;
     }
     .timeline>li:not(.timeline-inverted) {
@@ -1038,9 +1209,13 @@ Events TimeLine
         margin-bottom: 10px !important;
     }
 }
+
+
 /* ********************************
 Events TimeLine Ends
 /******************************** */
+
+
 /* ********************************
 Contact us Start
 /******************************** */
@@ -1051,9 +1226,13 @@ Contact us Start
     text-align: left;
     padding-left: 25px;
 }
+
+
 /* ********************************
 Contact us End
 /******************************** */
+
+
 /* ********************************
 Administration Starts
 /******************************** */
@@ -1065,17 +1244,23 @@ Administration Starts
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .panel-primary {
     border-color: #e34330;
 }
+
 .thumb {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+
 /* ********************************
 Administration Ends
 /******************************** */
+
+
 /* ********************************
 CommunityMarraige
 /******************************** */
@@ -1088,31 +1273,40 @@ CommunityMarraige
     padding: 50px 0 0 0;
     overflow: hidden;
 }
+
 .chartBackground {
     background: url(../Resource/MarriageSection/chartBackground.png) 50% 0 fixed;
 }
+
 .tableBackground {
     background: url(../Resource/MarriageSection/marriageListBackground.png) 50% 0 fixed;
     padding: 0;
 }
+
 .tableBackground table {
     margin-top: 20px;
 }
+
 th,
 td {
     text-align: center;
 }
+
 .table-bordered {
     border: 2px solid rgb(67, 67, 72);
 }
+
 th {
     background-color: rgb(122, 180, 238);
     color: white;
 }
+
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
     background-color: rgba(249, 249, 249, .85)
 }
+
+
 /*Zomm Image */
 
 .zoomimage {
@@ -1125,6 +1319,7 @@ th {
     height: 200px;
     width: 200px;
 }
+
 .zoomimage:hover {
     cursor: pointer;
     -webkit-transform: scale(1.5, 1.5);
@@ -1133,10 +1328,11 @@ th {
     transition-duration: 0.3s;
     -webkit-transition-duration: 0.3s;
     /* Safari */
-    
     box-shadow: 10px 10px 5px #888888;
     z-index: 8;
 }
+
+
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-width: 480px) {
@@ -1149,15 +1345,22 @@ th {
         display: none;
     }
 }
+
 @media(max-width:767px) {
     .footerData {
         padding-top: 130px;
         /*background-color: blue;*/
-        
         margin: 0;
     }
 }
-@media(min-width:768px) {} @media(min-width:992px) {} @media(min-width:1200px) {}
+
+@media(min-width:768px) {}
+
+@media(min-width:992px) {}
+
+@media(min-width:1200px) {}
+
+
 /* ********************************
 Donate
 /******************************** */
@@ -1167,6 +1370,7 @@ Donate
     position: relative;
     background: url(../Resource/Donate/donateiconsbg.png);
 }
+
 .donateiconsbackground:after {
     content: "";
     background: url(../Resource/Donate/donateiconsgradient.png) repeat;
@@ -1177,18 +1381,21 @@ Donate
     position: absolute;
     z-index: -1;
 }
+
 .donatetypeButton {
     padding-top: 20px;
     font-size: 16px;
     /* color: red;
 background-color: blue;*/
 }
+
 .chackbackground {
     display: block;
     position: relative;
     background-size: cover;
     background: url(../Resource/History/chak.jpg) center;
 }
+
 .buttonwithPadding {
     padding: 14px 24px;
     border: 0 none;
@@ -1196,30 +1403,39 @@ background-color: blue;*/
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
 .donateTypeInfo {
     color: white;
 }
+
 .borderleft {
     border-right: 1px dotted white;
 }
+
 .borderRightDeite {
     margin-bottom: 20px;
     border-left: 3px solid orange;
 }
+
 .borderRightDeite h1 {
     padding-bottom: 10px;
 }
+
 .donateintro {
     font-size: 20px;
     font-style: normal;
     ;
 }
+
 .boldCol {
     font-weight: 700;
 }
+
 .thumb {
     margin-bottom: 30px;
 }
+
+
 /* ********************************
 Near By Place
 /******************************** */
@@ -1236,16 +1452,21 @@ Near By Place
     line-height: 35px;
     vertical-align: middle !important;
 }
+
 .shadow {
     -moz-box-shadow: 0 0 30px 5px #999;
     -webkit-box-shadow: 0 0 30px 5px #999;
 }
+
 .maproot {
     margin: 0 !important;
 }
+
 .btn:focus {
     outline: none !important;
 }
+
+
 /* Festivals */
 
 .btn-big {
@@ -1259,11 +1480,12 @@ Near By Place
     background-color: #CC0000;
     border-color: transparent;
 }
-.btn-credit
-{
+
+.btn-credit {
     background-color: transparent;
     border-color: transparent
 }
+
 .btn-credit:hover,
 .btn-credit:focus {
     color: #CC0000;
@@ -1276,42 +1498,48 @@ Near By Place
     background-color: #CC0000;
     border-color: transparent;
 }
+
 .komarambg {
     display: block;
     position: relative;
-background: #6a5750;
-   
+    background: #6a5750;
 }
+
 .nalthyarBg {
     display: block;
     position: relative;
     background: #6a5750;
-
 }
+
 .lib-panel {
     margin: 20px !important;
     padding: 20px !important;
 }
+
 .lib-panel img {
     height: 100%;
     background-color: transparent;
 }
+
 .lib-panel .row,
 .lib-panel .col-xs-4 {
     padding: 0;
     background-color: #FFFFFF;
 }
+
 .lib-panel .lib-row.lib-header {
     background-color: #FFFFFF;
     font-size: 20px;
     padding: 10px 0 0 0;
 }
+
 .lib-panel .lib-row.lib-header .lib-header-seperator {
     height: 2px;
     width: 26px;
     background-color: #d9d9d9;
     margin: 7px 0 7px 0;
 }
+
 .lib-panel .lib-row.lib-desc {
     position: relative;
     height: 100%;
@@ -1319,19 +1547,26 @@ background: #6a5750;
     font-size: 15px;
     color: grey;
 }
+
 .box-shadow {
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .10);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .10);
 }
+
+
 /********* Video related ****************/
 
 .video-list-thumbs {
     padding-top: 30px;
 }
-.video-list-thumbs > li {
+
+.video-list-thumbs>li {
     margin-bottom: 12px
 }
-.video-list-thumbs > li:last-child {} .video-list-thumbs > li > a {
+
+.video-list-thumbs>li:last-child {}
+
+.video-list-thumbs>li>a {
     display: block;
     position: relative;
     background-color: #212121;
@@ -1339,12 +1574,14 @@ background: #6a5750;
     padding: 8px;
     border-radius: 3px
 }
-.video-list-thumbs > li > a:hover {
+
+.video-list-thumbs>li>a:hover {
     background-color: #000;
     transition: all 500ms ease;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
     text-decoration: none
 }
+
 .video-list-thumbs h2 {
     bottom: 0;
     font-size: 14px;
@@ -1352,6 +1589,7 @@ background: #6a5750;
     margin: 8px 0 0;
     color: white;
 }
+
 .video-list-thumbs .glyphicon-play-circle {
     font-size: 60px;
     opacity: 0.6;
@@ -1360,12 +1598,14 @@ background: #6a5750;
     top: 31%;
     text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
 }
-.video-list-thumbs > li > a:hover .glyphicon-play-circle {
+
+.video-list-thumbs>li>a:hover .glyphicon-play-circle {
     color: #fff;
     opacity: 1;
     text-shadow: 0 1px 3px rgba(0, 0, 0, .8);
     transition: all 500ms ease;
 }
+
 .video-list-thumbs .duration {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 2px;
@@ -1378,10 +1618,12 @@ background: #6a5750;
     position: absolute;
     top: 12px;
 }
-.video-list-thumbs > li > a:hover .duration {
+
+.video-list-thumbs>li>a:hover .duration {
     background-color: #000;
     transition: all 500ms ease;
 }
+
 @media (min-width: 320px) and (max-width: 480px) {
     .video-list-thumbs .glyphicon-play-circle {
         font-size: 35px;
@@ -1395,6 +1637,8 @@ background: #6a5750;
         margin: 8px 0 0;
     }
 }
+
+
 /* STICKY MENU ITEMS CSS START */
 
 .stickyBar {
@@ -1404,10 +1648,12 @@ background: #6a5750;
     padding-bottom: 3px;
     border-bottom: 1px solid #ebebeb;
 }
+
 .stickyBar .container {
     padding-top: 20px;
     padding-bottom: 18px;
 }
+
 .stickyBar .menuItems a {
     font-size: 16px;
     font-weight: bold;
@@ -1417,10 +1663,12 @@ background: #6a5750;
     position: relative;
     padding-bottom: 3px;
 }
+
 .stickyBar .menuItems a:hover {
     font-size: 16px;
     color: #333333;
 }
+
 .stickyBar .menuItems a:after {
     content: "";
     position: absolute;
@@ -1435,26 +1683,32 @@ background: #6a5750;
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
 }
+
 .stickyBar .menuItems a:hover:after {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+
 .stickyBar .menuItems a.active {
     color: #e34330;
 }
+
 .stickyBar .menuItems a.active:after {
     width: 100%;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
     visibility: visible;
 }
+
 .stickyBar .menuItems a:hover::after {
     width: 100%;
 }
+
 .stickyBarFixed .container {
     border: none;
 }
+
 .stickyBarFixed {
     position: fixed;
     top: 0;
@@ -1465,6 +1719,7 @@ background: #6a5750;
     border-bottom: 1px solid #ebebeb;
     width: auto;
 }
+
 .stickyBarFixedBtn {
     position: fixed;
     top: 0;
@@ -1474,18 +1729,23 @@ background: #6a5750;
     min-height: 50px;
     padding-top: 10px;
 }
+
 .stickyBarFixedBtn .container {
     padding: 0 0;
 }
+
 .stickyBarFixedBtn .container a {
     margin-left: 10px;
 }
+
 @media only screen and (max-width: 480px) {
     .stickyBar .menuItems a {
         font-size: 13px !important;
         text-align: center !important;
     }
 }
+
+
 /* ********************************
 Administration Start
 /******************************** */
@@ -1493,14 +1753,18 @@ Administration Start
 .thumbnail .caption p {
     padding-bottom: 0;
 }
+
 .caption {
     text-align: center;
     padding-top: 10px;
 }
+
 .thumbnail {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+
 /* ********************************
 Administration End
 /******************************** */
@@ -1514,10 +1778,9 @@ Administration End
         font-size: 19px;
         line-height: 30px;
     }
-    .author > p {
+    .author>p {
         font-size: 26px;
     }
- 
     .headingLeft {
         font-size: 24px;
     }
@@ -1528,7 +1791,7 @@ Administration End
         font-size: 15px;
         line-height: 26px;
     }
-    .eventInfo > p {
+    .eventInfo>p {
         font-size: 15px;
     }
     h2 {
@@ -1558,10 +1821,12 @@ Administration End
     .borderRightfiftyYears {
         min-height: 250px;
     }
-    #list2 {} #list2 ol {
+    #list2 {}
+    #list2 ol {
         font-size: 20px;
     }
-    #list2 ol li {} #list2 ol li p {
+    #list2 ol li {}
+    #list2 ol li p {
         font-size: 18px;
     }
     .donateintro {
@@ -1581,27 +1846,34 @@ Administration End
     }
 }
 
-
 video::-internal-media-controls-download-button {
-    display:none;
+    display: none;
 }
 
 video::-webkit-media-controls-enclosure {
-    overflow:hidden;
+    overflow: hidden;
 }
 
 video::-webkit-media-controls-panel {
-    width: calc(100% + 30px); /* Adjust as needed */
+    width: calc(100% + 30px);
+    /* Adjust as needed */
 }
 
 audio::-internal-media-controls-download-button {
-    display:none;
+    display: none;
 }
 
 audio::-webkit-media-controls-enclosure {
-    overflow:hidden;
+    overflow: hidden;
 }
 
 audio::-webkit-media-controls-panel {
-    width: calc(100% + 30px); /* Adjust as needed */
+    width: calc(100% + 30px);
+    /* Adjust as needed */
 }
+
+.hidden {
+    visibility: hidden;
+    display: none;
+}
+.thumbnail {margin-bottom:6px;}
